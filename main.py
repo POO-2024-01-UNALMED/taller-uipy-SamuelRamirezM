@@ -79,9 +79,6 @@ def calcularResultado(event):
         numero1 = listaNumeros[0]
         numero2 = listaNumeros[1]
         resultado = float(numero1) / float(numero2)
-    else:
-        pantalla.delete(0, "end")
-        pantalla.insert(0, mostrado + ".")
 
     pantalla.delete(0, "end")
     pantalla.insert(0, str(resultado))
